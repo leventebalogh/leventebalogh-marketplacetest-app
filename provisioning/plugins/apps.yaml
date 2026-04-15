@@ -1,0 +1,11 @@
+apiVersion: 1
+
+apps:
+  - type: 'leventebalogh-marketplacetest-app'
+    org_id: 1
+    org_name: 'leventebalogh'
+    disabled: false
+    jsonData:
+      apiUrl: http://default-url.com
+    secureJsonData:
+      apiKey: secret-key
